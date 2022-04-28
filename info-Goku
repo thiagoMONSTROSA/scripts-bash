@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+  
+
+#!/usr/bin/env bash
+  
+echo 'Oi, quem é senhor ? ' 
+echo 'Digite seu nome, Por favor: '
+read nome
+nomemaq=$(hostname)
+echo 'Seja bem vindo a' ${nomemaq} ', SR:'$nome
+
+nomeuser=$(whoami)
+echo 'O usuário atual => '${nomeuser}
+nomemaq=$(hostname)
+echo 'Eu Sou a Maquina => '${nomemaq}
+systema=$(uname -a)
+echo 'Meu atual systema operacial é => '${systema}
+data=$(date +'%d/%m/%Y')
+echo 'Estás informações são da data de => '${data}
+hora=$(date +'%H:%M:%S')
+echo 'Horario local => '${hora}
+
